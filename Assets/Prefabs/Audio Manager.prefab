@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &912604375242686933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912604375242686930}
+  - component: {fileID: 912604375242686892}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912604375242686930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912604375242686933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.994938, y: 15.682092, z: -2.410646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &912604375242686892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912604375242686933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c4c2c6fd73449f2b171f4c7f1bd0f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 6aba30d00c4f742dfa10ee7880ddb871, type: 3}
+    name: Jump
+    volume: 0.044
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: cd232071d5fce4e879d3148ee7a0f084, type: 3}
+    name: Hit
+    volume: 0.044
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 8ffef7378ef4442158864ca1b8128f7c, type: 3}
+    name: Boss
+    volume: 0.044
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 798a33e14820c46e6be9cb7f2acd0722, type: 3}
+    name: Theme
+    volume: 0.013
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 20de90ff3025247b2af0a3ec8ffed374, type: 3}
+    name: Coffee
+    volume: 0.034
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b20f43b4ef7b841748ea76eff056aa7e, type: 3}
+    name: Alarm
+    volume: 0.034
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 3eb864357a32141909b14a298ddf7afe, type: 3}
+    name: Ground
+    volume: 0.034
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 52cdf989e114746ef836920ca1d5d356, type: 3}
+    name: Shot
+    volume: 0.034
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: cfe1aef429f0c42b2b01403748cc4428, type: 3}
+    name: Pickup
+    volume: 0.034
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 4ede30410cc5e43bcaa51e4eb9438d35, type: 3}
+    name: PillowHit
+    volume: 0.034
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f8af1ae93a1dc43c3a56b5f627f41879, type: 3}
+    name: PillowThrow
+    volume: 0.034
+    loop: 0
+    source: {fileID: 0}
+  debug: Theme
